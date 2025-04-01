@@ -1,0 +1,23 @@
+{
+  "name": "quest-react",
+  "version": "1.0.0",
+  "description": "A Vite project with custom server setup",
+  "main": "app.jsx",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vite": "^4.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
